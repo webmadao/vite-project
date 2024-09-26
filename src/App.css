@@ -1,0 +1,40 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input{
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(83, 83, 226);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: rgb(35, 35, 196);
+  
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+}
