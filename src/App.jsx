@@ -62,7 +62,7 @@ function App() {
   return (
   
     <div className='app'>
-      <form onSubmit={handleSubmit}>
+      <form id='search' onSubmit={handleSubmit}>
         <input type="text" onChange={(e) => setSearch(e.target.value)} />
         <button type="submit" >Submit</button>
       </form>
@@ -77,8 +77,9 @@ function App() {
       { sortedInfos.map((info, index) => <Card {...info} key={index} />) }
       
       <nav>
-        <button onClick={handlePrevClick} >précédent</button>
+       <a className="bottom-btn" href="#search"> <button onClick={handlePrevClick} >précédent</button>
         <button onClick={handleNextClick} >suivant</button>
+        </a>
       </nav>
     </div>
    

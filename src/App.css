@@ -38,3 +38,10 @@ nav{
   display: flex;
   gap: 20px;
 }
+
+.bottom-btn{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
