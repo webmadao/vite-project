@@ -13,7 +13,7 @@ function App() {
 
   const fetchInfos = async () => {
     try{
-      const response = await axios.get(`http://hn.algolia.com/api/v1/search_by_date?query=${search}&page=${page}`)
+      const response = await axios.get(`https://hn.algolia.com/api/v1/search_by_date?query=${search}&page=${page}`)
       setInfos(response.data.hits)
     } 
      
